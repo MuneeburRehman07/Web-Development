@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card Design</title>
+    <style>
+        body {
+            background-color: rgb(201, 198, 198);
+        }
+
+        .card {
+            background-color: white;
+            height: 600px;
+            width: 500px;
+            border-radius: 11px;
+           
+        }
+
+        .image img {
+            border-radius: 7px;
+            display: block;
+            position: relative;
+            left: 18px;
+            top: 6px;
+
+        }
+
+        .span1 {
+            position: relative;
+            border: 1px solid black;
+            border-radius: 7px;
+            left: 80px;
+            top: -261px;
+
+            font-size: 19px;
+
+        }
+
+        .span2 {
+            position: relative;
+            border: 1px solid black;
+            border-radius: 7px;
+            left: 87px;
+            top: -261px;
+            font-size: 19px;
+        }
+        div h1{
+            position: relative;
+            top: -274px;
+            right: 0px;
+        }
+        div p{
+            font-size: 29px;
+            position: relative;
+            top: -287px;
+            right: -6px;
+        }
+        button{
+            background-color: skyblue;
+            color: rgb(0, 140, 255);
+            font-size: larger;
+            border-radius: 7px;
+            top: -287px;
+            position: relative;
+            right: -72px;
+        }
+   
+    </style>
+</head>
+
+<body>
+    <div class="card">
+        <div class="image">
+            <img src=https://images.unsplash.com/photo-1463385676620-a37609440d4b?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3Dalt="image of man with lake"
+                width=450px" height=300>
+
+        </div>
+    </div>
+    <span class="span1">Nature</span>
+    <span class="span2">Lake</span>
+    <div>
+        <h1>
+            Lake And Nature
+        </h1>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur. <br>adipisicing  Illo necessitatibus magni a. <br>Quidem minima 
+        </p>
+    </div>
+    <footer>
+        <button>
+            Read More
+        </button>
+    </footer>
+</body>
+
+</html>
