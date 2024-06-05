@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Excersice 2 - Again</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(211, 209, 209);
+        }
+
+        .container {
+            height: 628px;
+            width: 440px;
+            background-color: white;
+            margin: 15px;
+            padding: 10px;
+            border: none;
+            border-radius: 8px;
+        }
+
+        .image img {
+        
+            border-radius: 7px;
+            border: none;
+            width: 436px;
+
+        }
+
+        .capsules {
+            font: size 10px;
+            padding: 10px 0px 50px 0px;
+        }
+        .capsules span {
+            border: 2px solid rgb(196, 196, 196);
+            border-radius: 7px;
+            margin: 10px;
+            padding:1px 4px
+          
+        }
+        .pandh h1{
+            padding: 14px 0px 20px 5px;
+
+
+        }
+        .pandh p{
+            font-family: 'Times New Roman', Times, serif;
+            color: rgb(96, 96, 96);
+            font-size: 21px;
+        }
+        .btn{
+            padding: 16px 0px 0px 158px;
+        }
+        .btn button{
+            border: none;
+            border-radius: 7px;
+            background-color: rgb(163, 218, 241);
+            color: blue;
+            padding: 4px;
+        }
+     
+        
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="image">
+            <img src="https://media.istockphoto.com/id/165085322/photo/man-standing-on-jetty.jpg?s=612x612&w=0&k=20&c=WsPOcUnsFiShZPEEzURdxs-IQvEulKHzYnCbIAUhfIw="
+                alt="" >
+        </div>
+        <div class="capsules">
+            <span class="span1">Nature</span>
+            <span class="span2">Lake</span>
+        </div>
+        <div class="pandh">
+            <h1>Muneeb ur Rehman</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa quas libero voluptates cumque rerum error odit impedit iusto vitae vero, ut veritatis dolores est atque itaque doloremque consequatur tenetur? Itaque laboriosam delectus nemo accusamus harum.</p>
+        </div>
+        <div class="btn">
+            <button>
+                Read More
+            </button>
+        </div>
+    </div>
+</body>
+
+</html>
