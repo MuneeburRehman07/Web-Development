@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Excersice</title>
+    <style>
+        body{
+            background-color: rgb(79, 126, 255);
+        }
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        :root{
+              --color : rgb(255, 255, 255);
+              --seccolor:rgb(0, 41, 249);
+        } 
+        ul li{ 
+        display: inline;
+            font-size: x-large;
+            margin: 17px ;
+            border: none;
+            
+        }
+       nav{
+        margin: 4px;
+        padding: 5px;
+        background-color: var(--seccolor);
+       }
+      
+       
+       ul li a{
+        text-decoration: none;
+       }
+       a{
+        color: var(--color);
+       }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li><a href="https//www.google.com">Home</a></li>
+            <li><a href="https//amazon.com">About</a></li>
+            <li><a href="https//youtube.com">Services</a></li>
+            <li><a href="https//facebook.com">Contact us</a></li>
+        </ul>
+    </nav>
+
+</body>
+
+</html>
