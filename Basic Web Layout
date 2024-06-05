@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Website layout</title>
+    <style>
+        body {
+            background-color: gray;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            position: sticky;
+            top: 0;
+        }
+
+        .container {
+            height: 46px;
+            background-color: pink;
+        }
+
+        .box {
+            height: 600px;
+            background-color: rgb(68, 255, 0);
+        }
+
+        .box1 {
+            height: 550px;
+            width: 550px;
+            margin: 0px 0px 0px 15px;
+            background-color: orange;
+           
+            display: inline-block;
+        }
+
+        .box2 {
+            height: 550px;
+            width: 550px;
+            margin: 0px 0px 0px 385px;
+            background-color: blue;
+            display: inline-block;
+        }
+
+        .capsule {
+            text-align: center;
+        }
+
+        .capsule p {
+            background-color: black;
+            color: white;
+            border: none;
+            border-radius: 52px;
+            font-size: 40px;
+            padding: 64px;
+            margin-top: 14px;
+            margin-left: 194px;
+            margin-right: 225px;
+
+        }
+
+        .container2 {
+            height: 46px;
+            background-color: rgb(251, 251, 251);
+
+        }
+
+        .logo {
+            height: 40px;
+            width: 40px;
+            background-color: orange;
+            border-radius: 50%;
+            right: 23px;
+            bottom: 13px;
+            position: fixed;
+            
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav class="container">
+        </nav>
+    </header>
+    <main>
+        <div class="box">
+            <div class="box1"></div>
+            <div class="box2"></div>
+        </div>
+        <div class="capsule">
+            <p> Welcome to Sigma Web Development Express</p>
+
+        </div>
+    </main>
+    <footer>
+        <div class="container2"></div>
+         <div class="logo"></div>   
+    </footer>
+</body>
+
+</html>
