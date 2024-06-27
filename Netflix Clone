@@ -1,0 +1,430 @@
+HTML
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="main">
+        <nav class="nav">
+            <img src="Assets/logo.svg" alt="">
+            <span class="but">
+                <button>Sign Out</button>
+            </span>
+        </nav>
+        <div class="box"></div>
+        <div class="hero">
+            <div class="hero1">Welcome back!</div>
+            <div class="hero2">Unlimited movies, TV shows, and more</div>
+            <div class="hero3">Watch anywhere. Cancel anytime.</div>
+            <button>Finish Sign Up ></button>
+        </div>
+    </div>
+
+    <section class="box2">
+
+        <div>
+            <div> Enjoy on your TV</div>
+
+            <div> Watch on Smart TVs, Playstation, Xbox, Chromecast,<br> Apple TV, Blu-ray players, and more.</div>
+        </div>
+        <div class="secimg">
+            <img src="Assets/tv.png" alt="">
+            <video loop autoplay muted width="440px" src="Assets/video1.m4v"></video>
+        </div>
+    </section>
+    <section class="box3">
+        <div class="thirdimg"><img src="Assets/Mobile.jpg" alt=""></div>
+        <div class="card">
+            <img width="55px" src="Assets/boxshot.png" alt="">
+            <div class="cardContainer">
+
+                <div>Strange Things</div>
+                <div style="color: rgb(0, 113, 235);">Downloading...</div>
+            </div>
+        </div>
+        <div class="b3d1">
+            <div> Download your shows to <br>watch offline </div>
+            <div>Save your favorites easily and always have <br>
+                something to watch.</div>
+        </div>
+    </section>
+    <section class="box4">
+        <div class="box4COnt">
+             <span >Watch <br>everywhere </span>
+            <span> Stream unlimited movies and TV <br>shows on your phone,tablet, laptop,<br> and TV.
+            </span>
+        </div>
+    </section>
+    <section class="box5">
+      <div>
+        <img src="Assets/kids.png" alt="">
+      </div>
+      <div class="box5COnt">
+        <div>Create Profiles for Kids</div>
+        <div>Send kids on adventures with their favorite characters <br> in a space made just for them—free with your <br> membership.</div>
+      </div>
+    </section>
+    <!-- <section class="box6">
+        <div class="al">
+
+            <h2>Frequntly Asked Questions</h2>
+            <div class="boxf">
+                What is Netflix
+            </div>
+            <div class="boxe">
+                How much does Netflix cost?
+            </div>
+            <div class="boxd">
+                Where can I Watch?
+            </div>
+            <div class="boxc">
+                How do I cancel?
+            </div>
+            <div class="boxb">
+            What can I watch on Netflix?
+            </div>
+            <div class="boxa">
+                Is Netflix good for kids
+            </div>
+        </div> -->
+ 
+    <!-- </section> -->
+
+
+</body>
+
+</html>
+CSS
+body {
+    background-color: rgb(36, 36, 36);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    background-image: url("Assets/Banner.jpg");
+    height: 100vh;
+    position: relative;
+    background-position: center center;
+    background-size: 100;
+    background-repeat: no-repeat;
+}
+
+.main .box {
+    height: 100vh;
+    width: 100%;
+    opacity: 0.54;
+    position: absolute;
+    top: 0;
+    background-color: black;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 80vw;
+    margin: auto;
+    position: relative;
+    top: 20px;
+
+
+}
+
+button {
+    background-color: rgb(255, 0, 0);
+    color: white;
+    border-radius: 7px;
+    padding: 9px;
+    padding-right: 19px;
+    padding-left: 19px;
+    padding-bottom: 7px;
+    position: relative;
+    z-index: 10;
+    font-family: Segoe UI;
+    font-weight: 500;
+    font-size: 14px;
+
+}
+
+
+nav img {
+    width: 150px;
+    position: relative;
+    z-index: 10;
+
+}
+
+.hero {
+
+    color: rgb(255, 255, 255);
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.hero1 {
+    font-family: Segoe UI;
+    font-size: 24px;
+    font-weight: 400;
+
+}
+
+.hero2 {
+    font-size: 48px;
+    font-weight: 900;
+    font-family: Segoe UI;
+    margin: 9px;
+}
+
+.hero3 {
+    font-family: Segoe UI;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.hero button {
+    padding: 14px;
+    padding-left: 24px;
+    padding-right: 24px;
+    margin: 14px;
+    font-size: 24px;
+    line-height: 24px;
+    background-color: rgb(222, 5, 5);
+    font-family: Segoe UI;
+
+}
+
+.box2 {
+
+
+    background-color: black;
+    height: 80vh;
+    margin-top: 8px;
+    color: white;
+    font-size: 24px;
+    font-family: Segoe UI;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+ .box3 {
+    height: 80vh;
+    background-color: black;
+    margin-top: 8px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+.b3d1{
+    font-size: 24px;
+    font-family: Segoe UI;
+    font-weight: 400;
+
+}
+.b3d1 :first-child{
+    font-size: 48px;
+    font-family: Segoe UI;
+    font-weight: 900;
+}
+
+
+
+
+
+.box2 div :first-child {
+    font-size: 48px;
+    font-family: Segoe UI;
+    font-weight: 900;
+
+}
+
+.secimg img {
+    width: 40vw;
+    position: relative;
+    z-index: 10;
+}
+
+.secimg video {
+
+    top: 844px;
+    position: absolute;
+    right: 267px;
+}
+.thirdimg img{
+  width: 550px;
+}
+.card{
+    height: 14%;
+    width: 19%;
+    position: absolute;
+    right: 903px;
+    top: 1624px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: rgb(74, 74, 74);
+    border-image: initial;
+    border-radius: 11px; 
+    background-color: black;
+}
+.card img{
+    position: absolute;
+    right: 220px;
+    top: 6px;
+}
+.cardContainer{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    left: 90px;
+    top: 21px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+  
+
+}
+.cardContainer :first-child{
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+}
+.box4{
+
+  height: 50vh;
+  background-color: black;
+  margin-top: 8px;
+ 
+  
+}
+.box4COnt :first-child{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 48px;
+    font-weight: 900;
+    
+
+ 
+}
+.box4COnt{
+    display:flex;
+    flex-direction: column;
+     align-items: center;
+     justify-content: center; 
+     color: white;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     font-weight: 400;
+     font-size: 24px;
+    position: absolute;
+    left: 310px;
+    top: 1872px;
+}
+.box5{
+    height: 90vh;
+    background-color: black;
+    margin-top: 8px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+   
+ 
+}
+.box5COnt{
+    color: white;
+    font-weight: 400;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 24px;
+    
+}
+.box5 img{
+    width: 800px;
+}
+.box6{
+    height: 70vh;
+    background-color: black;
+    margin-top: 8px;
+    font-size :24px ;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+.box5COnt :first-child{
+    font-weight: 900;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 48px;
+}
+.boxf{
+    color: white;
+    height:90px;
+    background-color: rgb(28, 28, 28);
+    margin-top: 5px;
+    width: 70vw;
+  
+}
+.boxe{
+    color: white;
+    height: 90px;
+    background-color: rgb(28, 28, 28);
+    margin-top: 5px;
+    width: 70vw;
+   
+}
+ 
+.boxd{
+    color: white;
+    height: 90px;
+    background-color: rgb(28, 28, 28);
+    margin-top: 5px;
+    width: 70vw;
+ 
+}
+.boxc{
+    color: white;
+    height: 90px;
+    background-color: rgb(28, 28, 28);
+    margin-top: 5px;
+    width: 70vw;
+  
+}
+.boxb{
+    color: white;
+    height: 90px;
+    background-color: rgb(28, 28, 28);
+    margin-top: 5px;
+    width: 70vw;
+  
+}
+.boxa{
+    color: white;
+    height: 90px;
+    background-color: rgb(28, 28, 28);
+    margin-top: 5px;
+    width: 70vw;
+    
+} 
+.box6 h2{
+    color: white;
+    
+}
+.al{
+    position: absolute;
+}
