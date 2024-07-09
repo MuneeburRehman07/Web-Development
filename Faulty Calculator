@@ -1,0 +1,24 @@
+let a = Number(prompt("Enter your First Number"));
+let b = Number(prompt("Enter your Second Number"));
+
+
+let addition = a + b;
+let subtraction = a - b;
+let multiplication = a * b;
+let division = a / b;   
+ let c = Math.random();
+
+if(c<0.1){
+    console.log("The Sum of Two Numbers is :" ,+subtraction)
+    console.log("The Sub of Two Numbers is :" ,+multiplication)
+    console.log("The Mult of Two Numbers is :" ,+division)
+    console.log("The Divide of Two Numbers is :" ,+addition)
+
+}
+else{
+    console.log("The Sum of Two Numbers is :" ,+addition)
+    console.log("The Sub of Two Numbers is :" ,+subtraction)
+    console.log("The Mult of Two Numbers is :" ,+multiplication)
+    console.log("The Divide of Two Numbers is :" ,+division)
+
+}
