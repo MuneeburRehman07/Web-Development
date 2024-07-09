@@ -1,0 +1,31 @@
+
+ function joinWordsRandomly() {
+    // Example strings
+    let string1 = "Crazy Amazing  Fire";
+    let string2 ="Engine Foods Garments";
+    let string3 = "Bros Limited  Hub";
+    
+    // Split strings into arrays of words
+    let words1 = string1.split(" ");
+    let words2 = string2.split(" ");
+    let words3 = string3.split(" ");
+    
+    // Function to get a random element from an array
+    function getRandomElement(array) {
+        return array[Math.floor(Math.random() * array.length)];
+    }
+    
+    // Randomly select one word from each array
+    let randomWord1 = getRandomElement(words1);
+    let randomWord2 = getRandomElement(words2);
+    let randomWord3 = getRandomElement(words3);
+    
+    // Join the randomly selected words into a single string
+    let result = randomWord1 + " " + randomWord2 + " " + randomWord3;
+    
+    return result;
+}
+
+// Example usage
+let randomlyJoinedWords = joinWordsRandomly();
+console.log("Randomly joined words:", randomlyJoinedWords);
